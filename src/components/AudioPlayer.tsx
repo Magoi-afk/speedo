@@ -42,7 +42,7 @@ export default function AudioPlayer() {
     <>
       <audio
         ref={audioRef}
-        src="https://cdn.pixabay.com/download/audio/2022/03/24/audio_730606f23b.mp3?filename=ambient-water-10871.mp3"
+        src="/speedo.mp3"
         loop
         muted={isMuted}
       />

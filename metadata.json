@@ -1,0 +1,8 @@
+{
+  "name": "Speedo - Entre no Flow",
+  "description": "Landing page conceitual e estratégica para a campanha Speedo Entre no Flow, focada em branding, comunidade e ativação de UGC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -12,6 +12,7 @@ import Journey from "./components/Journey";
 import FooterCTA from "./components/FooterCTA";
 import WaveBackground from "./components/WaveBackground";
 import WaterCursor from "./components/WaterCursor";
+import AudioPlayer from "./components/AudioPlayer";
 
 export default function App() {
   return (
@@ -19,8 +20,9 @@ export default function App() {
       {/* Immersive Background Layers */}
       <WaveBackground />
       
-      {/* Interactive Water Cursor */}
+      {/* Interactive Elements */}
       <WaterCursor />
+      <AudioPlayer />
       <Nav />
       
       {/* Main Content Sections */}

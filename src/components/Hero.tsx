@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { MoveRight } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -9,38 +10,47 @@ export default function Hero() {
         <spline-viewer url="https://prod.spline.design/fTnTYX3wQP0PcUq8/scene.splinecode"></spline-viewer>
       </div>
 
-      <div className="container mx-auto px-6 relative z-10 text-left">
+      <div className="container mx-auto px-6 relative z-10">
         <motion.div
-          initial={{ opacity: 0, x: -30 }}
+          initial={{ opacity: 0, x: -40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="flex flex-col items-start"
+          className="flex flex-col items-start text-left"
         >
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="mb-8"
+          >
+            <span className="eyebrow items-start text-white">Campanha Digital 2026</span>
+          </motion.div>
+
           <motion.h1 
-            className="text-[var(--text-hero)] leading-[0.82] font-light text-white tracking-tighter mb-8 max-w-4xl font-body"
+            className="text-[70px] md:text-[90px] leading-[0.8] font-bold text-white tracking-tighter mb-10 max-w-4xl font-display uppercase"
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
           >
             Entre no<br />
-            <span className="text-[var(--color-secondary)] italic font-display">Flow.</span>
+            <span className="display-accent italic font-accent normal-case lowercase">Flow.</span>
           </motion.h1>
           
           <motion.p 
-            className="text-xl md:text-2xl font-light text-white/50 max-w-lg mb-16 leading-relaxed font-body"
+            className="text-[20px] font-light text-white/50 max-w-xl mb-16 leading-relaxed font-body"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.3 }}
+            transition={{ delay: 0.4 }}
           >
-            Quando o esforço some, só resta você e a água.
+            Quando o esforço some, só resta você e a água. O manifesto tátil de presença e movimento absoluto.
           </motion.p>
           
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
+            transition={{ delay: 0.6 }}
           >
-            <a href="#desafio" className="btn-primary px-12 py-5 text-base">
-              Entrar no desafio
+            <a href="#desafio" className="btn-primary px-10 py-4 text-base hover:scale-105 transition-transform duration-300">
+              Entrar no desafio <MoveRight className="ml-3 inline-block w-4 h-4" />
             </a>
           </motion.div>
         </motion.div>

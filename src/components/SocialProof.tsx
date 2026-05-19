@@ -29,24 +29,24 @@ export default function SocialProof() {
     <Section id="sobre" className="border-t border-white/5 py-40">
       <div className="grid lg:grid-cols-2 gap-24 items-center">
         <div>
-          <span className="eyebrow mb-8 items-start">Valor de Marca</span>
-          <h2 className="text-6xl md:text-8xl text-white tracking-tighter font-body font-light mb-10 leading-[0.85]">
+          <span className="eyebrow mb-8 items-start text-white">Valor de Marca</span>
+          <h2 className="text-6xl md:text-8xl text-white tracking-tighter font-display font-semibold mb-10 leading-[0.82]">
              Da Campanha à<br />
-             <span className="display-accent italic font-display">Comunidade.</span>
+             <span className="display-accent italic font-accent">Comunidade.</span>
           </h2>
-          <p className="text-xl text-[var(--color-text-muted)] font-light leading-relaxed max-w-lg mb-12 font-body">
+          <p className="text-xl text-white/70 font-light leading-relaxed max-w-lg mb-12 font-body">
             Não estamos apenas vendendo produtos. Estamos orquestrando um movimento cultural onde cada mergulho gera uma prova social inegável.
           </p>
           
           <div className="flex items-center gap-12">
              <div className="flex flex-col">
-                <span className="text-5xl text-white font-display font-light">92%</span>
-                <span className="text-[10px] uppercase text-white/40 font-bold tracking-[0.3em] mt-3 font-body">Confiam em UGC</span>
+                <span className="text-6xl text-white font-display font-bold">92%</span>
+                <span className="text-[10px] uppercase text-white/40 font-bold tracking-[0.4em] mt-3 font-body">Confiam em UGC</span>
              </div>
              <div className="w-[1px] h-12 bg-white/10" />
              <div className="flex flex-col">
-                <span className="text-5xl text-white font-display font-light">15D</span>
-                <span className="text-[10px] uppercase text-white/40 font-bold tracking-[0.3em] mt-3 font-body">Ciclo de Retenção</span>
+                <span className="text-6xl text-white font-display font-bold">15D</span>
+                <span className="text-[10px] uppercase text-white/40 font-bold tracking-[0.4em] mt-3 font-body">Ciclo de Retenção</span>
              </div>
           </div>
         </div>

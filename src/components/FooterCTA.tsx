@@ -5,11 +5,11 @@ export default function FooterCTA() {
   return (
     <Section className="relative bg-[#121212] border-t border-white/5" fullWidth>
       <div className="container mx-auto px-6 text-left py-32 relative z-10">
-        <span className="eyebrow mb-12 items-start">Próximo Passo</span>
-        <h2 className="text-6xl md:text-[8rem] text-white tracking-tighter font-body font-light mb-12 leading-[0.85] max-w-4xl">
-           Seu flow pode <span className="display-accent italic font-display">inspirar</span> o próximo.
+        <span className="eyebrow mb-12 items-start text-white">Próximo Passo</span>
+        <h2 className="text-6xl md:text-[8rem] text-white tracking-tighter font-display font-semibold mb-12 leading-[0.8] max-w-4xl">
+           Seu flow pode <br/><span className="display-accent italic font-accent">inspirar</span> o próximo.
         </h2>
-        <p className="text-2xl text-white/40 font-light max-w-2xl mb-16 leading-relaxed font-body">
+        <p className="text-2xl text-white/50 font-light max-w-2xl mb-16 leading-relaxed font-body">
           Junte-se à Speedo e faça parte de um movimento que celebra a natação como cultura, esforço e presença absoluta.
         </p>
         

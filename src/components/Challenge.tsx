@@ -34,12 +34,12 @@ export default function Challenge() {
     <Section id="desafio" className="bg-[#121212]/50 rounded-[3rem] my-24 border border-white/5 relative" fullWidth>
       <div className="container mx-auto px-6 py-16 md:py-24">
         <div className="text-left max-w-4xl mb-24">
-          <span className="eyebrow mb-8 items-start">Estratégia de Ativação</span>
-          <h2 className="text-6xl md:text-8xl text-white tracking-tighter font-body font-light mb-10 leading-[0.85]">
+          <span className="eyebrow mb-8 items-start text-white">Estratégia de Ativação</span>
+          <h2 className="text-6xl md:text-8xl text-white tracking-tighter font-display font-semibold mb-10 leading-[0.82]">
              A Jornada do<br />
-             <span className="display-accent italic font-display">Participante.</span>
+             <span className="display-accent italic font-accent">Participante.</span>
           </h2>
-          <p className="text-xl text-white/40 font-light max-w-xl font-body">Mecânica proprietária para geração de conteúdo orgânico e construção de comunidade.</p>
+          <p className="text-xl text-white/60 font-light max-w-xl font-body">Mecânica proprietária para geração de conteúdo orgânico e construção de comunidade.</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

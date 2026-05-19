@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&family=Instrument+Serif:italic&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Instrument Serif", Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-accent: "Instrument Serif", Georgia, serif;
 }
 
 @layer base {
@@ -14,7 +16,7 @@
     --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
     --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
     --text-3xl: clamp(2.5rem, 1rem + 4vw, 5rem);
-    --text-hero: clamp(3.25rem, 1rem + 7vw, 8rem);
+    --text-hero: clamp(4rem, 2rem + 8vw, 10rem);
 
     --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem; --space-4: 1rem;
     --space-5: 1.25rem; --space-6: 1.5rem; --space-8: 2rem; --space-10: 2.5rem;

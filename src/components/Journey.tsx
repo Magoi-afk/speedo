@@ -14,9 +14,9 @@ export default function Journey() {
     <Section className="bg-black/20" fullWidth>
       <div className="container mx-auto px-6">
         <div className="text-left mb-24 max-w-3xl">
-          <span className="eyebrow mb-8 items-start">Experiência do Usuário</span>
-          <h2 className="text-6xl md:text-8xl text-white tracking-tighter font-body font-light leading-[0.85] mb-8">O funil de<br /><span className="display-accent italic font-display">conversão.</span></h2>
-          <p className="text-xl text-white/40 font-light font-body">Uma jornada linear pensada para maximizar o engajamento e a retenção.</p>
+          <span className="eyebrow mb-8 items-start text-white">Experiência do Usuário</span>
+          <h2 className="text-6xl md:text-8xl text-white tracking-tighter font-display font-semibold leading-[0.82] mb-8">O funil de<br /><span className="display-accent italic font-accent">conversão.</span></h2>
+          <p className="text-xl text-white/50 font-light font-body">Uma jornada linear pensada para maximizar o engajamento e a retenção.</p>
         </div>
         
         <div className="relative">

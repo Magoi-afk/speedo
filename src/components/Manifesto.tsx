@@ -13,10 +13,10 @@ export default function Manifesto() {
            className="mb-24"
         >
           <span className="eyebrow mb-8 items-start">O Estado de Flow</span>
-          <h2 className="text-6xl md:text-[8rem] leading-[0.85] mb-12 font-body font-light tracking-tighter max-w-4xl">
-             Mergulhe na sua <span className="display-accent italic font-display">essência.</span>
+          <h2 className="text-6xl md:text-[8rem] leading-[0.8] mb-12 font-display font-semibold tracking-tighter max-w-4xl">
+             Mergulhe na sua <br/><span className="display-accent italic font-accent italic">essência.</span>
           </h2>
-          <p className="text-xl text-white/40 font-light max-w-xl font-body">A natação como um manifesto tátil de presença e movimento.</p>
+          <p className="text-xl text-white/60 font-light max-w-xl font-body">A natação como um manifesto tátil de presença e movimento.</p>
         </motion.div>
         
         <div className="grid md:grid-cols-3 gap-16 border-t border-white/5 pt-20">

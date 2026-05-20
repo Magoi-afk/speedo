@@ -33,8 +33,8 @@ export default function Journey() {
       <div className="container mx-auto px-6">
         <div className="text-left mb-24 max-w-3xl">
           <span className="eyebrow mb-8 items-start text-white uppercase tracking-widest font-bold">A Jornada de Evolução</span>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl text-white tracking-tighter font-display font-semibold leading-tight mb-8 uppercase">
-             No final, não será apenas <br /><span className="display-accent italic font-accent normal-case text-[var(--color-secondary)]">sobre natação.</span>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white tracking-tighter font-display font-semibold leading-tight mb-8 uppercase break-words">
+             No final, não será apenas <br className="hidden sm:block" /> <span className="display-accent italic font-accent normal-case text-[var(--color-secondary)]">sobre natação.</span>
           </h2>
           <p className="text-lg text-white/70 font-light font-body leading-relaxed">
             Será sobre olhar para trás e perceber que você conseguiu continuar.

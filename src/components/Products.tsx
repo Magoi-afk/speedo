@@ -1,7 +1,19 @@
 import { Section } from "./Section";
 import { motion } from "motion/react";
+import { useEffect, useState } from "react";
 
 export default function Products() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   return (
     <Section id="produtos" className="py-32 border-t border-white/5" hasRipple>
       <div className="container mx-auto px-6">
@@ -13,7 +25,7 @@ export default function Products() {
               Equipamento & Foco
             </span>
             
-            <h2 className="text-4xl md:text-5xl lg:text-6xl text-white tracking-tighter font-display font-semibold mb-8 leading-tight uppercase">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white tracking-tighter font-display font-semibold mb-8 leading-tight uppercase">
               O equipamento <br />
               que te une <br />
               <span className="display-accent italic font-accent normal-case text-[var(--color-secondary)]">à água.</span>
@@ -49,13 +61,22 @@ export default function Products() {
                 </p>
               </div>
               
-              <div className="h-[200px] md:h-[220px] w-full md:w-[170px] shrink-0 relative z-0 rounded-xl overflow-hidden bg-gradient-to-br from-rose-950/20 to-[#0a0a0a] flex items-center justify-center border border-white/5">
+              <div className="h-[200px] md:h-[220px] w-full md:w-[170px] shrink-0 relative z-0 rounded-xl overflow-hidden bg-gradient-to-br from-rose-950/25 to-[#050505] flex items-center justify-center border border-white/5">
                  {/* Subtle pink atmospheric back light for the ROSA product */}
                  <div className="absolute inset-0 bg-rose-500/10 mix-blend-color" />
-                 <div className="absolute w-24 h-24 rounded-full bg-rose-500/10 blur-xl" />
-                 <div className="absolute inset-0 opacity-40 group-hover:opacity-60 transition-opacity">
-                    <spline-viewer loading="lazy" url="https://prod.spline.design/tUuUNtQnGl1N452E/scene.splinecode"></spline-viewer>
-                 </div>
+                 <div className="absolute w-24 h-24 rounded-full bg-rose-500/15 blur-xl" />
+                 
+                 {!isMobile ? (
+                   <div className="absolute inset-0 opacity-40 group-hover:opacity-60 transition-opacity">
+                     <spline-viewer loading="lazy" url="https://prod.spline.design/tUuUNtQnGl1N452E/scene.splinecode"></spline-viewer>
+                   </div>
+                 ) : (
+                   /* Lightweight design elements for ultra-fast load and paint on phones */
+                   <div className="absolute inset-0 flex items-center justify-center">
+                     <div className="w-[100px] h-[100px] rounded-full border border-dashed border-rose-400/20 animate-pulse" />
+                   </div>
+                 )}
+                 
                  <div className="absolute bottom-3 right-3 pointer-events-none select-none">
                     <span className="text-4xl font-display font-bold text-rose-500/10 italic leading-none group-hover:text-rose-500/20 transition-colors">01</span>
                  </div>

@@ -13,7 +13,7 @@ export default function Manifesto() {
            className="mb-24"
         >
           <span className="eyebrow mb-8 items-start">O Estado de Flow</span>
-          <h2 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] mb-12 font-display font-semibold tracking-tighter max-w-4xl text-white uppercase">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl leading-[1.05] mb-12 font-display font-semibold tracking-tighter max-w-4xl text-white uppercase break-words whitespace-normal">
              O problema nunca foi começar. <br/><span className="display-accent italic font-accent normal-case">Sempre foi continuar.</span>
           </h2>
           <p className="text-xl text-white/70 font-light max-w-2xl font-body leading-relaxed">

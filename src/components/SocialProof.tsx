@@ -30,8 +30,8 @@ export default function SocialProof() {
       <div className="grid lg:grid-cols-2 gap-24 items-center">
         <div>
           <span className="eyebrow mb-8 items-start text-white uppercase tracking-widest font-bold">O Movimento</span>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl text-white tracking-tighter font-display font-semibold mb-10 leading-tight uppercase">
-             Uma experiência criada para <br />
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white tracking-tighter font-display font-semibold mb-10 leading-tight uppercase break-words">
+             Uma experiência criada para <br className="hidden sm:block" />
              <span className="display-accent italic font-accent normal-case">quem decidiu evoluir de verdade.</span>
           </h2>
           <p className="text-lg text-white/70 font-light leading-relaxed max-w-lg mb-12 font-body">

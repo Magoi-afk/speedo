@@ -35,27 +35,27 @@ export default function Challenge() {
       <div className="container mx-auto px-6 py-16 md:py-24">
         <div className="text-left max-w-4xl mb-24">
           <span className="eyebrow mb-8 items-start text-white uppercase tracking-widest font-bold">Como Funciona</span>
-          <h2 className="text-4xl md:text-6xl text-white tracking-tighter font-display font-semibold mb-10 leading-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl text-white tracking-tighter font-display font-semibold mb-10 leading-tight break-words">
              Mais do que um desafio, uma <span className="display-accent italic font-accent text-[var(--color-secondary)]">experiência</span> criada para testar sua evolução.
           </h2>
-          <p className="text-lg text-white/60 font-light max-w-2xl font-body leading-relaxed">
+          <p className="text-base sm:text-lg text-white/60 font-light max-w-2xl font-body leading-relaxed">
             Uma jornada criada para transformar disciplina em orgulho, evolução em rotina e uma conquista que ficará marcada em você pra sempre.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {steps.map((step, i) => (
-            <div key={i} className="glass-card p-10 group hover:border-[var(--color-secondary)]/30 transition-all duration-500">
-               <div className="text-[var(--color-secondary)] font-display text-5xl mb-8 opacity-20 group-hover:opacity-100 transition-opacity">0{i+1}</div>
-               <h3 className="text-lg font-bold text-white mb-4 tracking-widest uppercase font-body">{step.title}</h3>
-               <p className="text-sm text-[var(--color-text-muted)] font-light leading-relaxed font-body">{step.desc}</p>
+            <div key={i} className="glass-card p-6 sm:p-10 group hover:border-[var(--color-secondary)]/30 transition-all duration-500">
+               <div className="text-[var(--color-secondary)] font-display text-4xl sm:text-5xl mb-6 sm:mb-8 opacity-20 group-hover:opacity-100 transition-opacity">0{i+1}</div>
+               <h3 className="text-base sm:text-lg font-bold text-white mb-4 tracking-widest uppercase font-body">{step.title}</h3>
+               <p className="text-xs sm:text-sm text-[var(--color-text-muted)] font-light leading-relaxed font-body">{step.desc}</p>
             </div>
           ))}
         </div>
 
-        <div className="mt-24 flex justify-start">
-            <a href="https://wa.me/yourlink" target="_blank" rel="noreferrer" className="btn-primary px-16 py-6 scale-110 origin-left">
-              explorar <MoveRight className="ml-3" />
+        <div className="mt-16 sm:mt-24 flex justify-start w-full">
+            <a href="https://wa.me/yourlink" target="_blank" rel="noreferrer" className="btn-primary w-full sm:w-auto text-center justify-center px-10 py-4 sm:px-16 sm:py-6 scale-100 sm:scale-110 origin-left">
+              explorar <MoveRight className="ml-3 inline-block" />
             </a>
         </div>
       </div>

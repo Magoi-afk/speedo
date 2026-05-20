@@ -26,18 +26,18 @@ export default function FooterCTA() {
           {/* Left Column: Text and CTA */}
           <div className="flex flex-col items-start">
             <span className="eyebrow mb-6 items-start text-white uppercase tracking-widest font-bold">Próximo Passo</span>
-            <h2 className="text-3xl md:text-5xl text-white tracking-tighter font-display font-semibold mb-6 leading-tight max-w-2xl uppercase">
-               Os próximos <span className="display-accent italic font-accent normal-case text-[var(--color-secondary)]">30 dias</span> podem começar hoje.
+            <h2 className="text-2xl sm:text-3xl md:text-5xl text-white tracking-tighter font-display font-semibold mb-6 leading-tight max-w-2xl uppercase break-words">
+               Os próximos <span className="display-accent italic font-accent normal-case text-[var(--color-secondary)]">21 dias</span> podem começar hoje.
             </h2>
             <p className="text-base text-white/70 font-light max-w-xl mb-10 leading-relaxed font-body">
-              As instruções completas serão liberadas dentro do grupo de participantes.
+               As instruções completas serão liberadas dentro do grupo de participantes.
             </p>
             
-            <div className="flex flex-col items-start gap-4">
-               <a href="https://wa.me/yourlink" target="_blank" rel="noreferrer" className="btn-primary px-10 py-4 text-base hover:scale-105 transition-transform duration-300">
+            <div className="flex flex-col items-start gap-4 w-full sm:w-auto">
+               <a href="https://wa.me/yourlink" target="_blank" rel="noreferrer" className="btn-primary w-full sm:w-auto text-center justify-center px-10 py-4 text-base hover:scale-105 transition-transform duration-300">
                   desbloquear desafio
                </a>
-               <span className="text-[var(--color-text-faint)] text-[10px] uppercase tracking-[0.4em] font-bold font-body">
+               <span className="text-[var(--color-text-faint)] text-[9px] sm:text-[10px] uppercase tracking-[0.3em] sm:tracking-[0.4em] font-bold font-body">
                   Entrada simplificada e 100% gratuita
                </span>
             </div>

@@ -32,22 +32,20 @@ export default function Hero() {
           </motion.div>
 
           <motion.h1 
-            className="text-[70px] md:text-[90px] leading-[0.8] font-bold text-white tracking-tighter mb-10 max-w-4xl font-display uppercase"
+            className="text-[44px] md:text-[68px] leading-[1.1] font-bold text-white tracking-tighter mb-8 max-w-3xl font-display uppercase"
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
           >
-            Entre no<br />
-            <span className="display-accent italic font-accent normal-case lowercase">Flow.</span>
+            Mais do que um desafio, uma <span className="display-accent italic font-accent text-[var(--color-secondary)] normal-case">experiência</span> para testar sua evolução.
           </motion.h1>
           
           <motion.p 
-            className="text-[20px] font-light text-white/50 max-w-xl mb-16 leading-relaxed font-body"
+            className="text-[17px] md:text-[20px] font-light text-white/70 max-w-2xl mb-12 leading-relaxed font-body"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Quando o esforço some, só restam você e a água.<br />
-            Um manifesto tátil de presença e movimento absoluto.
+            Uma jornada criada para transformar disciplina em orgulho, evolução em rotina e uma conquista que ficará marcada em você pra sempre.
           </motion.p>
           
           <motion.div
@@ -55,8 +53,8 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            <a href="#desafio" className="btn-primary px-10 py-4 text-base hover:scale-105 transition-transform duration-300">
-              Entrar no desafio <MoveRight className="ml-3 inline-block w-4 h-4" />
+            <a href="#desafio" className="btn-primary px-12 py-4 text-base hover:scale-105 transition-transform duration-300">
+              começar <MoveRight className="ml-3 inline-block w-4 h-4" />
             </a>
           </motion.div>
         </motion.div>

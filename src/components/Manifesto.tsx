@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 export default function Manifesto() {
   return (
-    <Section id="manifesto" className="text-left py-32">
+    <Section id="manifesto" className="text-left py-32" hasRipple>
       <div className="max-w-6xl mx-auto">
         <motion.div
            initial={{ opacity: 0, x: -20 }}
@@ -13,10 +13,12 @@ export default function Manifesto() {
            className="mb-24"
         >
           <span className="eyebrow mb-8 items-start">O Estado de Flow</span>
-          <h2 className="text-6xl md:text-[8rem] leading-[0.8] mb-12 font-display font-semibold tracking-tighter max-w-4xl">
-             Mergulhe na sua <br/><span className="display-accent italic font-accent italic">essência.</span>
+          <h2 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] mb-12 font-display font-semibold tracking-tighter max-w-4xl text-white uppercase">
+             O problema nunca foi começar. <br/><span className="display-accent italic font-accent normal-case">Sempre foi continuar.</span>
           </h2>
-          <p className="text-xl text-white/60 font-light max-w-xl font-body">A natação como um manifesto tátil de presença e movimento.</p>
+          <p className="text-xl text-white/70 font-light max-w-2xl font-body leading-relaxed">
+            Todos começam motivados. Poucos conseguem manter disciplina quando a rotina pesa, o cansaço bate e os resultados demoram. Por isso criamos algo diferente.
+          </p>
         </motion.div>
         
         <div className="grid md:grid-cols-3 gap-16 border-t border-white/5 pt-20">

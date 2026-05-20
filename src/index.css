@@ -97,10 +97,12 @@
 
 @layer components {
   .display-accent {
-    background: linear-gradient(180deg, var(--color-text) 0%, var(--color-secondary) 100%);
+    background: linear-gradient(135deg, #FFF0DB 0%, var(--color-secondary) 50%, var(--color-secondary-strong) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    display: inline-block;
+    filter: drop-shadow(0 0 10px rgba(214,191,163,0.15));
   }
 
   .glass-card {
@@ -188,7 +190,23 @@
   66% { transform: translate(-2%, 4%) scale(0.98); }
 }
 
+@keyframes ripple-glow {
+  0%, 100% {
+    transform: scale(1);
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+  50% {
+    transform: scale(1.03);
+    border-color: rgba(214, 191, 163, 0.3);
+  }
+}
+
+.animate-ripple-glow {
+  animation: ripple-glow 8s ease-in-out infinite;
+}
+
 @keyframes caustic-shimmer {
+
   0% { background-position: 0% 0%; opacity: 0.1; }
   50% { background-position: 100% 100%; opacity: 0.2; }
   100% { background-position: 0% 0%; opacity: 0.1; }

@@ -38,8 +38,9 @@ export default function Nav() {
         
         <div className="hidden md:flex items-center gap-10 text-[10px] uppercase tracking-[0.3em] font-semibold text-white/50">
           <a href="#manifesto" className="hover:text-[var(--color-secondary)] transition-colors">Manifesto</a>
-          <a href="#desafio" className="hover:text-[var(--color-secondary)] transition-colors">Desafio</a>
-          <a href="#sobre" className="hover:text-[var(--color-secondary)] transition-colors">Estratégia</a>
+          <a href="#sobre" className="hover:text-[var(--color-secondary)] transition-colors">O Movimento</a>
+          <a href="#desafio" className="hover:text-[var(--color-secondary)] transition-colors">Como Funciona</a>
+          <a href="#jornada" className="hover:text-[var(--color-secondary)] transition-colors">A Jornada</a>
         </div>
         
         <a href="#desafio" className="px-6 py-2 rounded-full border border-[var(--color-border)] text-[var(--color-secondary)] text-[10px] font-bold uppercase tracking-widest hover:bg-[var(--color-secondary-soft)] transition-all">

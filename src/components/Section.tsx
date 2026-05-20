@@ -1,14 +1,16 @@
 import { motion } from "motion/react";
 import { ReactNode } from "react";
+import { Ripple } from "@/registry/magicui/ripple";
 
 interface SectionProps {
   children: ReactNode;
   className?: string;
   id?: string;
   fullWidth?: boolean;
+  hasRipple?: boolean;
 }
 
-export const Section = ({ children, className = "", id, fullWidth = false }: SectionProps) => {
+export const Section = ({ children, className = "", id, fullWidth = false, hasRipple = false }: SectionProps) => {
   return (
     <motion.section
       id={id}
@@ -18,7 +20,18 @@ export const Section = ({ children, className = "", id, fullWidth = false }: Sec
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       className={`relative py-16 md:py-24 lg:py-32 overflow-hidden ${fullWidth ? "" : "container mx-auto px-6"} ${className}`}
     >
-      {children}
+      {hasRipple && (
+        <Ripple 
+          mainCircleSize={180} 
+          mainCircleOpacity={0.25} 
+          numCircles={7} 
+          className="opacity-100" 
+        />
+      )}
+      <div className="relative z-10 w-full">
+        {children}
+      </div>
     </motion.section>
   );
 };
+

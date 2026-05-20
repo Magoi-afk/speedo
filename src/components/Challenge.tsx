@@ -5,41 +5,41 @@ import { motion } from "motion/react";
 export default function Challenge() {
   const steps = [
     {
-      title: "Entrar no desafio",
-      desc: "Inicie seu fluxo pelo site e conecte-se ao ecossistema exclusivo."
+      title: "Garanta seu Acesso",
+      desc: "Clique no botão de começar nesta página para iniciar sua jornada e registrar seus dados de evolução."
     },
     {
-      title: "Grupo no WhatsApp",
-      desc: "Entre na comunidade onde a jornada de 15 dias acontece em tempo real."
+      title: "Participe da Comunidade",
+      desc: "Entre no nosso grupo oficial do WhatsApp onde os participantes trocam experiências diárias e recebem avisos rápidos."
     },
     {
-      title: "Vídeo explicativo",
-      desc: "Receba o onboarding completo via chatbot com as diretrizes de imersão."
+      title: "Onboarding Automatizado",
+      desc: "Assista ao vídeo explicativo oficial enviado pelo nosso robô de boas-vindas com todas as metas do programa."
     },
     {
-      title: "Postar no TikTok/IG",
-      desc: "Compartilhe sua vivência, rotina ou evolução ao final do ciclo."
+      title: "Pratique Consequentemente",
+      desc: "Siga a sequência sugerida de hábitos por 21 dias para transformar de vez seus novos padrões e manter a consistência."
     },
     {
-      title: "Marcar Speedo",
-      desc: "Use #EntreNoFlow para validar sua participação e ser visto pela marca."
+      title: "Registre suas Conquistas",
+      desc: "Poste sua rotina de evolução em suas redes sociais (Instagram ou TikTok) marcando a hashtag oficial ##EntreNoFlow."
     },
     {
-      title: "Ganhar recompensa",
-      desc: "Receba brindes simbólicos e concorra a kits premium Elite Speedo."
+      title: "Conquiste suas Recompensas",
+      desc: "Após comprovar sua consistência, ganhe um cupom de desconto exclusivo de conclusão e concorra a kits premium."
     }
   ];
 
   return (
-    <Section id="desafio" className="bg-[#121212]/50 rounded-[3rem] my-24 border border-white/5 relative" fullWidth>
+    <Section id="desafio" className="bg-[#121212]/50 rounded-[3rem] my-24 border border-white/5 relative" fullWidth hasRipple>
       <div className="container mx-auto px-6 py-16 md:py-24">
         <div className="text-left max-w-4xl mb-24">
-          <span className="eyebrow mb-8 items-start text-white uppercase tracking-widest font-bold">Estratégia de Ativação</span>
+          <span className="eyebrow mb-8 items-start text-white uppercase tracking-widest font-bold">Como Funciona</span>
           <h2 className="text-4xl md:text-6xl text-white tracking-tighter font-display font-semibold mb-10 leading-tight">
-             Evolução e <span className="display-accent italic font-accent text-[var(--color-secondary)]">Disciplina</span> Diária.
+             Mais do que um desafio, uma <span className="display-accent italic font-accent text-[var(--color-secondary)]">experiência</span> criada para testar sua evolução.
           </h2>
           <p className="text-lg text-white/60 font-light max-w-2xl font-body leading-relaxed">
-            Mais do que um desafio, uma experiencia criada para testar sua evolução.
+            Uma jornada criada para transformar disciplina em orgulho, evolução em rotina e uma conquista que ficará marcada em você pra sempre.
           </p>
         </div>
 

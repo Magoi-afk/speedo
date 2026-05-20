@@ -98,7 +98,7 @@ export default function WaveBackground() {
       </div>
 
       {/* Depth Fades & Vignette */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/95 z-40" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-black/10 to-black/95 z-40" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,black_100%)] opacity-80 z-40" />
     </div>
   );

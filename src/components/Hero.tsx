@@ -7,9 +7,14 @@ export default function Hero() {
       {/* 3D Spline Background */}
       <div className="absolute inset-0 z-0 opacity-80 pointer-events-none select-none">
         {/* @ts-ignore */}
-        <spline-viewer url="https://prod.spline.design/fTnTYX3wQP0PcUq8/scene.splinecode"></spline-viewer>
+        <spline-viewer loading="lazy" url="https://prod.spline.design/fTnTYX3wQP0PcUq8/scene.splinecode"></spline-viewer>
       </div>
 
+      {/* Deep Ocean Depths Overlay */}
+      <div className="absolute inset-x-0 top-0 h-[20vh] bg-black z-[5] pointer-events-none"></div>
+      <div className="absolute inset-0 z-[5] pointer-events-none select-none bg-gradient-to-t from-black via-[#080c14]/40 to-black"></div>
+      <div className="absolute right-0 bottom-0 z-[6] pointer-events-none select-none w-full md:w-3/4 h-[50vh] md:h-[70vh] bg-[radial-gradient(circle_at_bottom_right,rgba(0,0,0,1)_0%,rgba(0,0,0,0.8)_30%,transparent_70%)]"></div>
+      
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, x: -40 }}
@@ -23,7 +28,7 @@ export default function Hero() {
             transition={{ delay: 0.2 }}
             className="mb-8"
           >
-            <span className="eyebrow items-start text-white">Campanha Digital 2026</span>
+            <span className="eyebrow items-start text-white uppercase tracking-[0.5em] font-bold">CAMPANHA DIGITAL 2026</span>
           </motion.div>
 
           <motion.h1 
@@ -41,7 +46,8 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Quando o esforço some, só resta você e a água. O manifesto tátil de presença e movimento absoluto.
+            Quando o esforço some, só restam você e a água.<br />
+            Um manifesto tátil de presença e movimento absoluto.
           </motion.p>
           
           <motion.div

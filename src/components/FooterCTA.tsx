@@ -5,7 +5,7 @@ export default function FooterCTA() {
   return (
     <Section className="relative bg-[#121212] border-t border-white/5" fullWidth>
       <div className="container mx-auto px-6 text-left py-32 relative z-10">
-        <span className="eyebrow mb-12 items-start text-white">Próximo Passo</span>
+        <span className="eyebrow mb-12 items-start text-white uppercase tracking-widest font-bold">Próximo passo</span>
         <h2 className="text-6xl md:text-[8rem] text-white tracking-tighter font-display font-semibold mb-12 leading-[0.8] max-w-4xl">
            Seu flow pode <br/><span className="display-accent italic font-accent">inspirar</span> o próximo.
         </h2>

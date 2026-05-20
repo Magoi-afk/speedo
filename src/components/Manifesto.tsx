@@ -24,14 +24,14 @@ export default function Manifesto() {
             <div className="text-[var(--color-secondary)] font-display text-4xl italic opacity-40 group-hover:opacity-100 transition-opacity">01.</div>
             <h3 className="text-xl font-medium text-white tracking-tight uppercase tracking-wider font-body">O Silêncio</h3>
             <p className="text-sm leading-relaxed text-[var(--color-text-muted)] font-light font-body">
-              O momento exato em que o ruído do mundo desaparece e a única coisa que resta é o compasso da sua própria respiração.
+              O momento em que o ruído do mundo desaparece e tudo o que existe é o compasso da sua respiração.
             </p>
           </div>
           <div className="space-y-6 group">
             <div className="text-[var(--color-secondary)] font-display text-4xl italic opacity-40 group-hover:opacity-100 transition-opacity">02.</div>
             <h3 className="text-xl font-medium text-white tracking-tight uppercase tracking-wider font-body">O Ritmo</h3>
             <p className="text-sm leading-relaxed text-[var(--color-text-muted)] font-light font-body">
-              A braçada que se torna um reflexo. A água que deixa de resistir para se tornar o motor do seu deslocamento.
+              A braçada vira reflexo. A água deixa de resistir e passa a ser o motor do seu deslocamento.
             </p>
           </div>
           <div className="space-y-6 group">

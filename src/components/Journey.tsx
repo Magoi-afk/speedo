@@ -3,20 +3,20 @@ import { Section } from "./Section";
 export default function Journey() {
   const steps = [
     "Impacto visual",
-    "CTA Estratégico",
+    "CTA estratégico",
     "Comunidade WhatsApp",
-    "Desafio 15 Dias",
+    "Desafio 15 dias",
     "Publicação UGC",
-    "Premiação & Alcance"
+    "Premiação & alcance"
   ];
 
   return (
     <Section className="bg-black/20" fullWidth>
       <div className="container mx-auto px-6">
         <div className="text-left mb-24 max-w-3xl">
-          <span className="eyebrow mb-8 items-start text-white">Experiência do Usuário</span>
+          <span className="eyebrow mb-8 items-start text-white uppercase tracking-widest font-bold">Experiência do Usuário</span>
           <h2 className="text-6xl md:text-8xl text-white tracking-tighter font-display font-semibold leading-[0.82] mb-8">O funil de<br /><span className="display-accent italic font-accent">conversão.</span></h2>
-          <p className="text-xl text-white/50 font-light font-body">Uma jornada linear pensada para maximizar o engajamento e a retenção.</p>
+          <p className="text-xl text-white/50 font-light font-body">Uma jornada linear pensada para maximizar engajamento e retenção.</p>
         </div>
         
         <div className="relative">

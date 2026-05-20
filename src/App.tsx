@@ -9,7 +9,6 @@ import Manifesto from "./components/Manifesto";
 import Challenge from "./components/Challenge";
 import SocialProof from "./components/SocialProof";
 import Products from "./components/Products";
-import GogglesExperience from "./components/GogglesExperience";
 import Journey from "./components/Journey";
 import FooterCTA from "./components/FooterCTA";
 import WaveBackground from "./components/WaveBackground";
@@ -33,7 +32,6 @@ export default function App() {
         <Manifesto />
         <SocialProof />
         <Products />
-        <GogglesExperience />
         <Challenge />
         <Journey />
         <FooterCTA />

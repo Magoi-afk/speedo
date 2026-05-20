@@ -35,11 +35,12 @@ export default function Challenge() {
       <div className="container mx-auto px-6 py-16 md:py-24">
         <div className="text-left max-w-4xl mb-24">
           <span className="eyebrow mb-8 items-start text-white uppercase tracking-widest font-bold">Estratégia de Ativação</span>
-          <h2 className="text-6xl md:text-8xl text-white tracking-tighter font-display font-semibold mb-10 leading-[0.82]">
-             A jornada do<br />
-             <span className="display-accent italic font-accent">participante.</span>
+          <h2 className="text-4xl md:text-6xl text-white tracking-tighter font-display font-semibold mb-10 leading-tight">
+             Evolução e <span className="display-accent italic font-accent text-[var(--color-secondary)]">Disciplina</span> Diária.
           </h2>
-          <p className="text-xl text-white/60 font-light max-w-xl font-body">Mecânica proprietária para gerar conteúdo orgânico e construir comunidade.</p>
+          <p className="text-lg text-white/60 font-light max-w-2xl font-body leading-relaxed">
+            Mais do que um desafio, uma experiencia criada para testar sua evolução.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -54,7 +55,7 @@ export default function Challenge() {
 
         <div className="mt-24 flex justify-start">
             <a href="https://wa.me/yourlink" target="_blank" rel="noreferrer" className="btn-primary px-16 py-6 scale-110 origin-left">
-              Entrar no grupo oficial <MoveRight className="ml-3" />
+              explorar <MoveRight className="ml-3" />
             </a>
         </div>
       </div>
